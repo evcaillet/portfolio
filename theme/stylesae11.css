@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-color:#18191B;
+    font-family: "Oswald";
+    color: #97acc2;
+}
+
+header>a {
+    text-decoration: none;
+    color: black;
+    background-color: #007BFF;
+    margin: 15px 0 0 15px;
+    padding:10px;
+    font-size: larger;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: "Bebas Neue";
+    margin-top: 100px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* L'ensemble de la présentation */
+
+.ensemble {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 0 auto;
+    width: 1200px;
+    border: solid white 2px;
+    border-radius: 25px;
+}
+
+.ensemble>h3 {
+    margin: 15px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.ensemble>h4 {
+    margin: 15px 0 10px 20px;
+}
+
+.ensemble>p {
+    margin: 0 0 0 10px;
+}
+
+/* La partie contexte */
+
+.contexte {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contexte>img {
+    flex: 1;
+    width: 40%;
+    gap: 10px;
+    max-height: 300px;
+    border-radius: 15px;
+}
+
+.contexte>p {
+    line-height: 30px;
+}
+
+/* Le résultat avec le document */
+
+.rendu-doc {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.rendu-doc>img {
+    flex: 1;
+    width: 40%;
+}
+
+.rendu-doc>p {
+    margin-left: 20px;
+}
+
+/* Le résultat avec le diaporama */
+
+.rendu-diapo {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.rendu-diapo>img {
+    flex: 1;
+    width: 40%;
+}
+
+.rendu-diapo>p {
+    margin-left: 20px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    font-size: small;
+}
